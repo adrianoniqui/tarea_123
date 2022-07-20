@@ -1,15 +1,15 @@
-package TAREAYMUM;
+package tareaMANQ;
 
 import java.util.Scanner;
 
-public class tareaymum {
+public class TAREA4 {
     
-    Scanner le = new Scanner(System.in);
-    public void tareaymum05() {
+    Scanner ll = new Scanner(System.in);
+    public void tarea05() {
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         String[][] matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = 0; c <= f; c++) {
@@ -19,11 +19,11 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum06()  {
+    public void tarea06()  {
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         String[][] matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = 0; c <= f; c++) {
@@ -33,12 +33,12 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum07()  {
+    public void tarea07()  {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = 0; c <= (matriz.length - 1) - f; c++) {
@@ -48,11 +48,11 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum09()  {
+    public void tarea09()  {
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         String[][] matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = (matriz[0].length - 1) - f; c <= matriz[0].length - 1; c++) {
@@ -62,11 +62,11 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum010() {
+    public void tarea010() {
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         String[][] matriz = new String[dimension][dimension];
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j <= i; j++) {
@@ -76,12 +76,12 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum011() {
+    public void tarea011() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = (matriz.length - 1) - f; c >= 0; c--) {
@@ -91,12 +91,12 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum012() {
+    public void tarea012() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = matriz[f].length-1; c >= f; c--) {
@@ -105,11 +105,11 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum018() {
+    public void tarea018() {
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         String[][] matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = 0; c <= f; c++) {
@@ -119,13 +119,13 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum020() {
+    public void tarea020() {
 
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = (matriz[0].length - 1); f >= 0; f--) {
             for (int c = matriz[f].length-1; c >= f; c--) {
@@ -135,12 +135,12 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum022() {
+    public void tarea022() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int c = 0; c < matriz[0].length; c++) {
             if (c % 2 == 0) {
@@ -158,12 +158,12 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum023() {
+    public void tarea023() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int c = (matriz[0].length - 1); c >= 0; c--) {
             if (c % 2 == 0) {
@@ -181,12 +181,12 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum024() {
+    public void tarea024() {
         String[][] matriz;
         System.out.println("Ingrese la dimesion de la Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese el valor inicial");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int columna = matriz[0].length - 1; columna >= 0; columna--) {
             if (columna%2== 0) {
@@ -204,12 +204,12 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum025() {
+    public void tarea025() {
         String[][] matriz;
         System.out.println("Ingrese la dimesion de la Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese el valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             if (f % 2 == 0) {
@@ -227,12 +227,12 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum026() {
+    public void tarea026() {
         String[][] matriz;
         System.out.println("Ingrese la dimesion de la  Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese el valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             if (f % 2 == 0) {
@@ -250,9 +250,9 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum027() {
+    public void tarea027() {
         System.out.println("Ingrese la dimesion de la Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese el valor inicial");
         int valor =0;
         String[][] matriz = new String[dimension][dimension];
@@ -271,11 +271,11 @@ public class tareaymum {
         }
         imprimirMatriz(matriz);
     }
-    public void tareaymum028() {
+    public void tarea028() {
             System.out.println("Ingrese dimesion de Matriz:");
-            int dimension = le.nextInt();
+            int dimension = ll.nextInt();
             System.out.println("Ingrese valor inicial:");
-            int valor = le.nextInt();
+            int valor = ll.nextInt();
             String[][] matriz = new String[dimension][dimension];
             for (int f = (matriz.length - 1); f >= 0; f--) {
                 if (f % 2 == 0) {
@@ -292,12 +292,12 @@ public class tareaymum {
             }
             imprimirMatriz(matriz);
         }
-    public void tareaymum029() {
+    public void tarea029() {
                 String[][] matriz;
                 System.out.println("Ingrese dimesion de Matriz:");
-                int dimension = le.nextInt();
+                int dimension = ll.nextInt();
                 System.out.println("Ingrese valor inicial:");
-                int valor = le.nextInt();
+                int valor = ll.nextInt();
                 matriz = new String[dimension][dimension];
                 for (int v = 0; v < dimension / 2; v++) {
                     for (int ls = v; ls < dimension - 1 - v; ls++) {
@@ -322,12 +322,12 @@ public class tareaymum {
                 }
                 imprimirMatriz(matriz);
             }
-    public void tareaymum030() {
+    public void tarea030() {
                     String[][] matriz;
                     System.out.println("Ingrese la dimesion de la Matriz:");
-                    int dimension = le.nextInt();
+                    int dimension = ll.nextInt();
                     System.out.println("Ingrese el valor inicial:");
-                    int valor = le.nextInt();
+                    int valor = ll.nextInt();
                     matriz = new String[dimension][dimension];
                     for (int v = 0; v < dimension / 2; v++) {
                         for (int ld = v; ld < dimension - 1 - v; ld++) {
@@ -352,12 +352,12 @@ public class tareaymum {
                     }
                     imprimirMatriz(matriz);
                 }
-    public void tareaymum031() {
+    public void tarea031() {
                     String[][] matriz;
                     System.out.println("Ingrese la dimesion de la  matriz:");
-                    int dimension = le.nextInt();
+                    int dimension = ll.nextInt();
                     System.out.println("Ingrese el valor inicial:");
-                    int valor = le.nextInt();
+                    int valor = ll.nextInt();
                     matriz = new String[dimension][dimension];
                     for (int v = 0; v < dimension / 2; v++) {
                         for (int lin = dimension - 1 - v; lin > v; lin--) {
@@ -382,12 +382,12 @@ public class tareaymum {
                     }
                     imprimirMatriz(matriz);
                 }
-    public void tareaymum032() {
+    public void tarea032() {
                     String[][] matriz;
                     System.out.println("Ingrese la dimesion de la matriz:");
-                    int dimension = le.nextInt();
+                    int dimension = ll.nextInt();
                     System.out.println("Ingrese el valor inicial:");
-                    int valor = le.nextInt();
+                    int valor = ll.nextInt();
                     matriz = new String[dimension][dimension];
                     for (int v = 0; v < dimension / 2; v++) {
                         for (int liz = dimension - 1 - v; liz > v; liz--) {
@@ -412,12 +412,12 @@ public class tareaymum {
                     }
                     imprimirMatriz(matriz);
                 }
-    public void tareaymum033() {
+    public void tarea033() {
                     String[][] matriz;
                     System.out.println("Ingrese dimesion de Matriz:");
-                    int dimension = le.nextInt();
+                    int dimension = ll.nextInt();
                     System.out.println("Ingrese valor inicial:");
-                    int valor = le.nextInt();
+                    int valor = ll.nextInt();
                     matriz = new String[dimension][dimension];
                     for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
                         for (int ls = v; ls > (dimension - 1) - v; ls--) {
@@ -442,12 +442,12 @@ public class tareaymum {
                     }
                     imprimirMatriz(matriz);
                 }
-    public void tareaymum034() {
+    public void tarea034() {
                     String[][] matriz;
                     System.out.println("Ingrese dimesion de Matriz:");
-                    int dimension = le.nextInt();
+                    int dimension = ll.nextInt();
                     System.out.println("Ingrese valor inicial:");
-                    int valor = le.nextInt();
+                    int valor = ll.nextInt();
                     matriz = new String[dimension][dimension];
                     for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
                         for (int liz = (dimension - 1) - v; liz < v; liz++) {
@@ -472,12 +472,12 @@ public class tareaymum {
                     }
                     imprimirMatriz(matriz);
                 }
-    public void tareaymum035() {
+    public void tarea035() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
-        int dimension = le.nextInt();
+        int dimension = ll.nextInt();
         System.out.println("Ingrese valor inicial:");
-        int valor = le.nextInt();
+        int valor = ll.nextInt();
         matriz = new String[dimension][dimension];
         for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
         for (int lin = (dimension - 1) - v; lin < v; lin++) {
@@ -502,12 +502,12 @@ public class tareaymum {
     }
     imprimirMatriz(matriz);
      }
-    public void tareaymum036() {
+    public void tarea036() {
                     String[][] matriz;
                     System.out.println("Ingrese dimesion de Matriz:");
-                    int dimension = le.nextInt();
+                    int dimension = ll.nextInt();
                     System.out.println("Ingrese valor inicial:");
-                    int valor = le.nextInt();
+                    int valor = ll.nextInt();
                     matriz = new String[dimension][dimension];
                     for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
                         for (int ld = v; ld > (dimension - 1) - v; ld--) {
@@ -544,6 +544,9 @@ public class tareaymum {
             }
             System.out.println("");
         }
+    }
+    public static void main(String args[]){
+        new TAREA4().tarea010();
     }
 
 }
