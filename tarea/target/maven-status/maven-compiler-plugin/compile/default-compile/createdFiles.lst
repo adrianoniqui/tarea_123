@@ -1,0 +1,6 @@
+com\mycompany\tarea\Tarea.class
+com\mycompany\tarea\comandos\SellStock.class
+com\mycompany\tarea\comandos\Order.class
+com\mycompany\tarea\comandos\Stock.class
+com\mycompany\tarea\comandos\Broker.class
+com\mycompany\tarea\comandos\BuyStock.class
